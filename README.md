@@ -64,5 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-FluxA is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://fluxapay.xyz/
+FluxA provides payment infrastructure for AI agents, offering a co‑wallet, virtual AgentCards, the AEP2 embedded payment protocol, and tools to monetize MCP servers and APIs. Their platform enables autonomous agents to pay, earn, and transact with built‑in risk controls, spend limits, and approval workflows, supporting AI‑driven commerce across services.
+
+**Areas:** Company · Payments · AI · Agents · Infrastructure
+
+## FluxA on APIs.io
+
+Everything profiled for FluxA is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fluxapay-xyz/](https://apis.io/providers/fluxapay-xyz/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [FluxA Wallet API](https://apis.io/apis/fluxapay-xyz/fluxa-wallet-api/) — API for FluxA wallet operations, as documented in the HTTP API guide.
+- [FluxA API](https://apis.io/apis/fluxapay-xyz/fluxapay-xyz-api/) — FluxA API as documented publicly: 16 operations. Contract generated from the documentation by API Evangelist (2026-11-04); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiMandatesAgentMandateidResponse](https://apis.io/schemas/fluxapay-xyz/fluxapay-xyz-get-api-mandates-agent-mandateid-response/)
+- [GetApiPaymentLinksRefundsRefundidResponse](https://apis.io/schemas/fluxapay-xyz/fluxapay-xyz-get-api-payment-links-refunds-refundid-response/)
+- [GetApiPaymentLinksRefundsResponse](https://apis.io/schemas/fluxapay-xyz/fluxapay-xyz-get-api-payment-links-refunds-response/)
+- [PostApiPaymentLinksRefundsInitiateResponse](https://apis.io/schemas/fluxapay-xyz/fluxapay-xyz-post-api-payment-links-refunds-initiate-response/)
+- [PostApiPaymentPaymentidRequest](https://apis.io/schemas/fluxapay-xyz/fluxapay-xyz-post-api-payment-paymentid-request/)
+- [PostApiPayoutsRequest](https://apis.io/schemas/fluxapay-xyz/fluxapay-xyz-post-api-payouts-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Fluxapay Xyz Context](https://apis.io/jsonld/fluxapay-xyz/fluxapay-xyz-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [FluxA API Rules](https://apis.io/rules/fluxapay-xyz/fluxapay-xyz-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fluxapay Xyz Domain Security](https://apis.io/security/fluxapay-xyz/fluxapay-xyz-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fluxapay.xyz/)
+- [Documentation](https://docs.fluxapay.xyz/wallet/http-api.html)
+- [Getting started](https://fluxapay.xyz/learning)
+- [API reference](https://docs.fluxapay.xyz/wallet/http-api.html)
+- [Support](https://fluxapay.xyz/security)
+- [Blog](https://fluxapay.xyz/blog)
+- [GitHub](https://github.com/FluxA-Agent-Payment)
+
+## API Evangelist rating
+
+**Kin Score 39.4** — developing · rubric 0.25.0 · scored 2026-11-04
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 51.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 59.5 |
+| Access clarity | 0.0 |
+
+**Agent readiness 36.1** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 14.2** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fluxapay-xyz/](https://apis.io/providers/fluxapay-xyz/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FluxA: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fluxapay-xyz/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
