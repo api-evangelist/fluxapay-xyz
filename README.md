@@ -64,7 +64,7 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-FluxA provides payment infrastructure for AI agents, offering a co‑wallet, virtual AgentCards, the AEP2 embedded payment protocol, and tools to monetize MCP servers and APIs. Their platform enables autonomous agents to pay, earn, and transact with built‑in risk controls, spend limits, and approval workflows, supporting AI‑driven commerce across services.
+FluxA provides payment infrastructure for AI agents, offering a co‑wallet, virtual AgentCards, the AEP2 embedded payment protocol, and tools to monetize MCP servers and APIs. Their platform enables autonomous agents to pay, earn, and transact with built‑in risk controls, spend limits, and approval workflows, supporting AI‑driven commerce across services. FluxA’s solution includes a developer portal, detailed API reference, SDKs, and a sandbox environment for testing. It targets AI‑driven marketplaces, autonomous agents, and developers building agent‑centric applications, ensuring compliance, security, and scalability.
 
 **Areas:** Company · Payments · AI · Agents · Infrastructure
 
@@ -104,11 +104,18 @@ Spectral rulesets for the provider's contracts.
 
 - [FluxA API Rules](https://apis.io/rules/fluxapay-xyz/fluxapay-xyz-rules/)
 
-#### Security (1)
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Fluxapay Xyz Domain Security](https://apis.io/security/fluxapay-xyz/fluxapay-xyz-domain-security/)
+- [FluxA Authentication](https://apis.io/security/fluxapay-xyz/fluxapay-xyz-authentication/)
+- [FluxA Domain Security](https://apis.io/security/fluxapay-xyz/fluxapay-xyz-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [FluxA Plans Pricing](https://apis.io/plans/fluxapay-xyz/fluxapay-xyz-plans-pricing/)
 
 ## Where to find this API
 
@@ -120,48 +127,51 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [API reference](https://docs.fluxapay.xyz/wallet/http-api.html)
 - [Support](https://fluxapay.xyz/security)
 - [Blog](https://fluxapay.xyz/blog)
+- [Terms of service](https://docs.fluxapay.xyz/legal/terms.html)
+- [Privacy policy](https://docs.fluxapay.xyz/legal/privacy.html)
 - [GitHub](https://github.com/FluxA-Agent-Payment)
 
 ## API Evangelist rating
 
-**Kin Score 39.4** — developing · rubric 0.25.0 · scored 2026-11-04
+**Kin Score 41.6** — developing · rubric 0.27.0 · scored 2026-11-18
 
 | Facet | Score |
 |---|---|
 | Discoverability | 53.6 |
-| Contract quality | 51.0 |
-| Contract governance | 79.1 |
-| Operational transparency | 5.3 |
-| Developer ergonomics | 59.5 |
-| Access clarity | 0.0 |
+| Contract quality | 26.0 |
+| Contract governance | 22.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 71.4 |
+| Access clarity | 49.5 |
 
-**Agent readiness 36.1** — agent-ready
+**Agent readiness 23.6** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
 | Agentic Access | — |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
-| Auth Clarity | served (partial credit) |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
 | Error Semantics | — |
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
 | Agent Skills | — |
-| Well Known Catalog | — |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
-| Delegated Identity | served (partial credit) |
-| Protected Resource Metadata | verified |
-| Dynamic Client Registration | yes |
-| Agentic Commerce | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | self |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
 
-**Regulatory alignment 14.2** — Payments
+**Regulatory alignment 20.8** — Payments
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fluxapay-xyz/](https://apis.io/providers/fluxapay-xyz/).
 
