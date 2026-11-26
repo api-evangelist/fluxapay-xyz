@@ -133,18 +133,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 41.6** — developing · rubric 0.27.0 · scored 2026-11-18
+**Kin Score 41.6** — developing · rubric 0.28.0 · scored 2026-11-25
 
 | Facet | Score |
 |---|---|
-| Discoverability | 53.6 |
+| Discoverability | 64.3 |
 | Contract quality | 26.0 |
 | Contract governance | 22.0 |
-| Operational transparency | 21.1 |
-| Developer ergonomics | 71.4 |
-| Access clarity | 49.5 |
+| Operational transparency | 19.0 |
+| Developer ergonomics | 77.9 |
+| Access clarity | 42.6 |
 
-**Agent readiness 23.6** — agent-aware
+**Agent readiness 26.8** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -158,7 +158,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
@@ -171,7 +171,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
 
-**Regulatory alignment 20.8** — Payments
+**Regulatory alignment 15.8** — Payments
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fluxapay-xyz/](https://apis.io/providers/fluxapay-xyz/).
 
